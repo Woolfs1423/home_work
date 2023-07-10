@@ -1,0 +1,31 @@
+.section-fist-task {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /*The mistake was in position: static;*/
+}
+
+.section-fist-task-red-block {
+    position: absolute;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    left: 367px;
+    top: 141px ;
+    /*The mistake was in position:relative;,     ,
+        and  margin
+        */
+}
+
+.section-fist-task-green-block {
+    position: absolute;
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    right: 397px;
+    top: 141px;
+    /*The mistake was in position: fixed; and
+    margin-right: 29px;    
+    */
+}
