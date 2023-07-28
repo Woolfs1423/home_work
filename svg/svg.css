@@ -1,0 +1,22 @@
+body{
+    padding: 50px;
+    background-color: #000;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+}
+.svg{
+    width: 400px;
+    height:300px;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+}
+.text{
+    font-size: 24px;
+    color: #000;
+}
+svg-text{
+    overflow: visible;
+}
